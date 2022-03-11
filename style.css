@@ -1,0 +1,232 @@
+.box{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 100px auto;
+
+
+
+}
+
+
+.a{
+	width: 0px;
+	height: 0px;
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	animation: red 5s infinite;
+	transition: 2s;
+	
+    border-bottom: 90px solid red;
+	border-right: 45px solid transparent;
+	border-left: 45px solid transparent;
+
+
+
+
+}
+
+
+@keyframes red{
+
+	0%{
+		top: 0px;
+		left: 0px;
+		
+
+	}
+
+	25%{
+		top: 0px;
+		left: 100px;
+		
+
+	}
+	50%{
+		top: 100px;
+		left: 100px;
+		
+
+	}
+	75%{
+		left: 0px;
+		top: 100px;
+		
+
+	}
+
+	100%{
+		top: 0px;
+		left: 0px;
+		
+
+	}
+}
+
+.b{
+	width: 90px;
+	height: 90px;
+	background-color: pink;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	animation: pink 5s infinite;
+
+
+
+
+
+}
+
+
+@keyframes pink{
+
+	0%{
+		top: 0px;
+		left: 100px;
+
+	}
+
+	25%{
+		top: 100px;
+		left: 100px;
+
+	}
+	50%{
+		top: 100px;
+		left: 0px;
+
+	}
+	75%{
+		left: 0px;
+		top: 0px;
+
+	}
+
+	100%{
+		top: 0px;
+		left: 100px;
+
+	}
+}
+
+
+
+
+.c{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	animation: green 5s infinite;
+	border-radius: 50%;
+	background-color: gray;
+
+	
+	
+
+
+
+
+
+}
+
+
+@keyframes green{
+
+	0%{
+		top: 100px;
+		left: 0px;
+
+	}
+
+	25%{
+		top: 0px;
+		left: 0px;
+
+	}
+	50%{
+		top: 0px;
+		left: 100px;
+
+	}
+	75%{
+		left: 100px;
+		top: 100px;
+
+	}
+
+	100%{
+		top: 100px;
+		left: 0px;
+
+	}
+}
+
+
+
+
+.d{
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	animation: gold 5s infinite;
+	border-radius: 50%
+
+	
+
+
+
+
+}
+
+
+@keyframes gold{
+
+
+	
+
+
+
+
+	0%{
+		top: 100px;
+		left: 100px;
+
+	}
+
+	25%{
+		top: 100px;
+		left: 0px;
+
+	}
+	50%{
+		top: 0px;
+		left: 0px;
+
+	}
+	75%{
+		left: 100px;
+		top: 0px;
+
+	}
+
+	100%{
+		top: 100px;
+		left: 100px;
+
+	}
+}
+
+
+
+
+
+
+
